@@ -122,7 +122,7 @@ resource "aws_instance" "server" {
               sudo chmod 700 /home/centos/.ssh
               sudo chmod 600 /home/centos/.ssh/authorized_keys
               sudo chown -R centos:centos /home/centos/.ssh
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDbZ0I9c6XDO22hKsW0nPfMZC2yjGo6OzZc2+DWcGpzaddVSe29TYpQS70wJY6l37BrgyX4ydFXZOx8LMxiq7yS6eUM+D5/6wu/i2L3H+wU0pgvsBGrIBT39EU5I9AxdXgK5Pk5rfOi18uRC7Dxp+TTECBEmJFZzrFYIMQJDVzNRAIlB9Yu+Qu7bBybbwBJTfnMnYFkCQpvaxtwpqBReGFmY70Ycg/r/KroxAYxhfKRllfzUWu722/qQemo0353FCRD7RuevMqEl1RFXxC3FxBZNMrNkL1SsqMIN8Qe7Up/NOGi1leebUVOxfHmhYbwkQ+cOMCSz34eKMm7cQE11etSl1L9nWwnuh6g5LJljciE14U0DxHT8UCp6fxfz+mxNkhzFdAP3XFrQLrmoZbo50ClpNUvOQF6BnRDMlvw6HKs42Y/hWoRwCzgoPYsYK0GS3chPY5c7Td7IgKblBOeAIppN1NjeOhH1PxXqxhhlIKIn02wTMcKL1t7sNVkDU+qkrU= fsantsil@armmachine" | sudo tee -a /home/centos/.ssh/authorized_keys >/dev/null
+echo "ssh-rsa AAA..................Mxiq7yS6e." | sudo tee -a /home/centos/.ssh/authorized_keys >/dev/null
               EOF
 
   tags = {
